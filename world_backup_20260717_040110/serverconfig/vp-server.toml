@@ -1,0 +1,60 @@
+#Is first player logged in (For welcome book)
+firstPlayer = false
+#Used Welcome Book. Second one can be used only with Creative.
+usedBook = false
+#Enables Cruel mode: all bosses will have x4 hp, x2 damage, 100 armor, Shields and Over Shield, Healing, damage absorption 90%
+cruelMode = false
+#Cruel mode Hp scale
+#Range: 1.0 ~ 2.1E9
+bossHP = 1.5
+#Cruel mode attack scale
+#Range: 1.0 ~ 2.1E9
+bossAttack = 3.0
+#Cruel mode armor and armor toughness
+#Range: 1 ~ 2100000000
+armorCruel = 60
+#Cruel mode damage percent from maximum hp when starving, drowning. Set 0 to disable.
+#Range: 0.0 ~ 2.1E9
+damageCruel = 0.15
+#Cruel mode DPS cap from max health %, 0.1 is 10%
+#Range: 0.0 ~ 2.147483647E9
+absorbCruel = 0.25
+#Cruel mode Shield from hp percent 1 is 100%
+#Range: 0.1 ~ 2.1E9
+shieldCruel = 0.75
+#Cruel mode Over Shield from hp percent
+#Range: 0.1 ~ 2.1E9
+overShieldCruel = 0.25
+#Cruel mode Heal percent from max hp
+#Range: 0.0 ~ 2.1E9
+healPercent = 0.005
+#Exp base multiplier from bosses in Cruel mode
+#Range: 1.0 ~ 2.1E9
+expMultiplier = 10.0
+#Chance to spawn Empowered mob in Hardcore mode
+#Range: 0.0 ~ 2.1E9
+empoweredChance = 0.01
+#Health Boost for all monsters in Cruel Mode. Leave at 1.0 to disable.
+#Range: 0.0 ~ 2.1E9
+healthBoost = 2.0
+#Base chance for Cruel Mode exclusive item to drop, like Orb of Chaos or Mirror.
+#Range: 0.0 ~ 2.1E9
+cruelItemChance = 0.001
+#Those are numbers for each Challenge to reduce their maximum
+reduceChallenges = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#If true, numbers above for reducing Challenges maximum number will count as Percent from maximum
+reduceChallengesPercent = true
+#Maximum power of Vestiges.
+#Range: 1.0 ~ 2.1E9
+maxPower = 100.0
+#Each Vestige Power Scale in percents.
+powerScales = [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
+#Power Scale increase by completing new challenges.
+#Range: 1.0 ~ 2.1E9
+powerBoost = 5.0
+#Defines if Leaderboard should be enabled: 
+leaderboard = false
+#Chance for Item to define as rare for Prism challenge. For example carrot has 0.025 chance to drop from zobmie
+#Range: 1.0E-4 ~ 1.0
+rareItemChance = 0.025
+
